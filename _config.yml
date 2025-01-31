@@ -26,9 +26,16 @@ description: >- # this means to ignore newlines until "baseurl:"
   Au plaisir de vous accueillir et de vous faire découvrir le pays des Hellènes.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://manon-mathieu-gr.github.io # the base hostname & protocol for your site, e.g. http://example.com
+# Make _pages accessible
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
 # header_pages:
+#   - index.md
 #   - about.md
-#   - visites.md
+#   - visites/index.md
 #   - reservation.md
 
 

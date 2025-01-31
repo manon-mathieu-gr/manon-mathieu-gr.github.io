@@ -1,0 +1,38 @@
+// Header navigation bar layout (always shown)
+.site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white; /* Change as needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a slight shadow */
+    z-index: 1000;
+    padding: 10px 0px;
+    border-top: none;
+}
+
+// Overwriting styles
+body {
+    padding-top: 80px; /* Adjust based on header height */
+}
+
+// Center the menu icon
+.site-nav {
+    @include media-query($on-palm) {
+        top: 17px;
+    }
+}
+
+.nav-logo-title-container {
+    display: left;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0px;
+}
+
+.nav-logo {
+    order: 1;
+    float: left;
+    margin-right: 10px;
+    padding-top: 7px;
+}
