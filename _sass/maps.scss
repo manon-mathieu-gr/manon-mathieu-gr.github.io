@@ -1,0 +1,37 @@
+.region-label {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #1d0088;  // Deep blue
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);  // Light shadow for better contrast
+    background: none;  // No background
+    border: none;
+    padding: 0;
+  }
+
+.region-label-container {
+  background: white;
+  padding: 1px 2px;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer; /* Make it obvious it's clickable */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.region-label-container:hover {
+    background: #f0f0f0; /* Slightly darker background on hover */
+}
+
+.small-map {
+  max-width: 500px;
+  max-height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 20px; /* Rounded corners */
+  margin-bottom: 20px;
+}

@@ -1,0 +1,375 @@
+<header class="header bg-white black">
+<div class="navbar-container">
+  <div class="navbar-logo-container">
+    <a class="logo" href="/">
+      <img id="logo-svg" src="/svg/Logo_Horizontal_Fond_Clair.svg" height="25" alt="Logo Teploenergies">
+    </a>
+  </div>
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <ul class="menu">
+    <li><a href="/qui-sommes-nous/">Qui sommes-nous ?</a></li>
+    <li id="service-dropdown">
+      <a href="javascript:void(0)" id="service-dropdown-btn">Nos services<img height="12" width="9"
+          style="margin-left: 5px; margin-top: 2px" src="/img/caret-down-solid.png" alt="Dropdown menu"/></a>
+      <div id="service-dropdown-content">
+        <a href="/chauffagiste/">Chauffagiste</a>
+        <a href="/">Installation pompe à chaleur air-eau</a>
+        <a href="/climatisation/">Installation climatisation réversible</a>
+        <a href="/entretien-pompe-a-chaleur/">Entretien pompe à chaleur</a>
+        <a href="/entretien-climatisation/">Entretien climatisation reversible</a>
+        <a href="/depannage-pompe-a-chaleur/">Dépannage pompe à chaleur air-eau</a>
+        <a href="/depannage-climatisation/">Dépannage climatisation reversible</a>
+        <a href="/desembouage-plancher-radiateurs/">Désembouage circuit de chauffage</a>
+      </div>
+    </li>
+    <li><a href="/paiement-par-carte/"><span class="btn-navbar-white">Paiement en ligne</span></a></li>
+    <li><a href="/nous-contacter/"><span class="btn-navbar-black"><img src="/svg/contract.svg" class="btn-svg-icon" height="14"
+      alt="Contract">Demander un devis</span> </a></li>
+  </ul>
+</div>
+</header>
+
+/* header */
+
+.header {
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 3;
+}
+
+.navbar-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem 0 1rem;
+}
+
+.navbar-logo-container {
+    display: block;
+    float: left;
+    padding-top: 17px;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.header a {
+    color: var(--black)
+}
+
+.header li a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 1.3em;
+    text-decoration: none;
+    font-family: "Aeonik";
+    display: flex;
+    align-items: center;
+}
+
+
+.btn-navbar-white {
+  border-radius: 25px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 0.6rem 1.5rem;
+  color: var(--black);
+  background-color: #fff;
+  box-shadow: 0 2px 6px #1018280F;
+  border: 1px solid var(--grey);
+}
+
+.btn-navbar-black {
+  border-radius: 25px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  padding: 0.6rem 1.5rem;
+  background-color: var(--black);
+  color: #fff;
+  box-shadow: 0 2px 6px #1018280F;
+}
+
+#service-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--color-2);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+#service-dropdown-content a {
+    color: var(--black);
+}
+
+#service-dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.svg-arrow-down {
+    fill: var(--white-1);
+}
+
+/* menu */
+
+.header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+    cursor: pointer;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+}
+
+.header .menu-icon .navicon {
+    background: var(--color-1);
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+    background: var(--color-1);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+    top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+    top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+    display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+    max-height: 800px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+}
+
+
+/* Styles pour les prestations */
+#services-dropdown {
+    position: relative;
+  }
+  
+  #services-dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--color-2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Assurez-vous que c'est assez élevé */
+    min-width: 160px;
+    top: 100%;
+    left: 0;
+  }
+  
+  #services-dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  #services-dropdown .dropdown-content li {
+    padding: 10px 20px;
+  }
+  
+  #services-dropdown .dropdown-content li a {
+    color: var(--black);
+    text-decoration: none;
+  }
+  
+  #services-dropdown .dropdown-content li a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Styles pour l'arrow */
+  .arrow {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  
+  .header .menu-icon {
+    cursor: pointer;
+    float: right;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+  }
+  
+  .header .menu-icon .navicon {
+    background: var(--color-1);
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background .2s ease-out;
+    width: 18px;
+  }
+  
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
+    background: var(--color-1);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+  }
+  
+  .header .menu-icon .navicon:before {
+    top: 5px;
+  }
+  
+  .header .menu-icon .navicon:after {
+    top: -5px;
+  }
+  
+  .header .menu-btn {
+    display: none;
+  }
+  
+  .header .menu-btn:checked ~ .menu {
+    max-height: 800px;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+  }
+  
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+  
+  @media (min-width: 900px) {
+    .header li {
+      float: left;
+    }
+  
+    .header li a {
+      padding: 20px 17px;
+    }
+  
+    .header .menu {
+      clear: none;
+      float: right;
+      max-height: none;
+    }
+  
+    .header .menu-icon {
+      display: none;
+    }
+
+    #service-dropdown:hover #service-dropdown-content {
+        display: block;
+    }
+  }
+  
+  @media (max-width: 900px) {
+  
+    .header li a {
+      float: none;
+    }
+  
+    #service-dropdown-content a {
+        background-color: var(--color-2); 
+        padding-left: 2rem;
+        color: var(--white-1);
+    }
+
+    #service-dropdown-content a:hover {
+        background-color: var(--color-2);
+    }
+
+    .header li a {
+        float: none;
+    }
+
+    #service-dropdown-content {
+        width: 100%;
+        position: static;
+        box-shadow: none;
+    }
+  
+    .navbar-container {
+      padding: 0;
+    }
+  
+    .navbar-logo-container {
+      padding-left: 1rem;
+    }
+  
+    /* Pour mobile */
+    #services-dropdown input[type="checkbox"] {
+      display: none;
+    }
+  
+    #services-dropdown input[type="checkbox"]:checked ~ .dropdown-content {
+      display: block;
+    }
+  
+    #services-dropdown label {
+      display: block;
+    }
+  }
