@@ -1,0 +1,88 @@
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+crossorigin=""></script>
+
+<div id="map" style="border-radius: 20px;"></div>
+<script>
+var map = L.map('map', {  
+    center: [38.0, 23.73], // Center
+    zoomSnap: 0.1, // Use non-integer zoom level
+    zoom: 6.7, // Zoom level
+    zoomControl: false, // Hide zoom controls
+    scrollWheelZoom: false, // Disable zoom with scroll
+    doubleClickZoom: false, // Disable zoom with double-click
+    // dragging: false, // Prevent moving the map
+    touchZoom: false, // Disable pinch-to-zoom on mobile
+    keyboard: false // Disable keyboard controls
+}); // Coordinates of the map center
+
+var jawgtile = L.tileLayer('https://tile.jawg.io/jawg-light/{z}/{x}/{y}{r}.png?access-token=Uwyu7QJsTA36DvM2Lz5edFbHQ7z7eyPPV2JWfaaUFi3Gr9Rj4DtgJ8xLtCKUpNDi', {});
+jawgtile.addTo(map);
+
+// Load GeoJSON from file
+fetch('/assets/data/regions.json') // Adjust path if necessary
+    .then(response => response.json())
+    .then(data => {
+        L.geoJSON(data, {
+            style: function(feature) {
+                return { 
+                    color: "#ffff", // Border color
+                    weight: 2, // Fine grid
+                    fillColor: "#A0DDD6", // Default fill color
+                    fillOpacity: 0.6
+                };
+            },
+            onEachFeature: function(feature, layer) {
+                let regionColor = "#A0DDD6"; // Default region color
+                let hoverColor = "#5FADA4"; // Hover color
+                
+                // Add clickable event for the region
+                layer.on('click', function() {
+                    window.location.href = feature.properties.url;
+                });
+
+                // Get the region's center to place the label
+                let center = feature.properties.label_position ? L.latLng(feature.properties.label_position[1], feature.properties.label_position[0]) : layer.getBounds().getCenter();
+
+                // Create a text label as a DivIcon (Clickable)
+                let label = L.divIcon({
+                    className: 'region-label', // Custom CSS class
+                    html: `
+                        <div class="region-label-container" data-region="${feature.properties.name}">
+                            <b>${feature.properties.name}</b>
+                        </div>
+                    `, 
+                    iconSize: [120, 40] // Adjust size if necessary
+                });
+
+                // Add the label as a marker
+                let nameMarker = L.marker(center, { icon: label, interactive: true }).addTo(map);
+
+                // Mouseover effect for both the region and the label
+                function highlightRegion() {
+                    layer.setStyle({ fillColor: hoverColor });
+                    nameMarker._icon.querySelector(".region-label-container").style.background = "#f0f0f0";
+                }
+
+                function resetRegion() {
+                    layer.setStyle({ fillColor: regionColor });
+                    nameMarker._icon.querySelector(".region-label-container").style.background = "white";
+                }
+
+                layer.on('mouseover', highlightRegion);
+                layer.on('mouseout', resetRegion);
+
+                // Ensure label hover also highlights region
+                nameMarker._icon.addEventListener("mouseover", highlightRegion);
+                nameMarker._icon.addEventListener("mouseout", resetRegion);
+                
+                // Make label fully clickable
+                nameMarker._icon.addEventListener("click", () => {
+                    window.location.href = feature.properties.url;
+                });
+            }
+        }).addTo(map);
+    })
+    .catch(error => console.error("Erreur lors du chargement du fichier GeoJSON:", error));
+
+</script>

@@ -1,0 +1,44 @@
+[
+    {
+        "start": "2025-04-06",
+        "end": "2025-04-11",
+        "status": "unavailable",
+        "event": "Copaings toulousains (Nerf et son Dr.)"
+    },
+    {
+        "start": "2025-05-23",
+        "end": "2025-05-25",
+        "status": "unavailable",
+        "event": "Famille Manon"
+    },
+    {
+        "start": "2025-05-26",
+        "end": "2025-05-29",
+        "status": "partial",
+        "event": "Famille Manon en vadrouille"
+    },
+    {
+        "start": "2025-05-30",
+        "end": "2025-06-01",
+        "status": "unavailable",
+        "event": "Famille Manon"
+    },
+    {
+        "start": "2025-06-02",
+        "end": "2025-06-05",
+        "status": "partial",
+        "event": "Famille Manon en vadrouille"
+    },
+    {
+        "start": "2025-06-06",
+        "end": "2025-06-08",
+        "status": "unavailable",
+        "event": "Famille Manon"
+    },
+    {
+        "start": "2025-07-15",
+        "end": "2025-08-15",
+        "status": "away",
+        "event": "Nous ne serons très probablement pas là 🚫 (De toute façon il fait trop chaud 🥵)"
+    }
+]

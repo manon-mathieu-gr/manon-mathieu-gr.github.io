@@ -2,7 +2,19 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+// Width of the content area
+$content-width:    1000px !default;
+
+$on-palm:          600px !default;
+$on-laptop:        1000px !default;
+
+$light-turquoise: #a0ddd65d;
+$turquoise: #82b9b4;
+
 @import "minima";
+@import "custom";
 @import "header";
 @import "footer";
 @import "home";
+@import "maps";
+@import "calendar";

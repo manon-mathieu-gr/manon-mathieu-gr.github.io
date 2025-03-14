@@ -1,0 +1,47 @@
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+crossorigin=""></script>
+
+<div id="map" class="small-map"></div>
+<script>
+var map = L.map('map', {  
+    center: [37.93, 22.925], // Center
+    zoomSnap: 0.1, // Use non-integer zoom level
+    zoom: 12.5, // Zoom level
+    zoomControl: false, // Hide zoom controls
+    scrollWheelZoom: false, // Disable zoom with scroll
+    doubleClickZoom: false, // Disable zoom with double-click
+    dragging: false, // Prevent moving the map
+    touchZoom: false, // Disable pinch-to-zoom on mobile
+    keyboard: false // Disable keyboard controls
+}); // Coordinates of the map center
+
+var jawgtile = L.tileLayer('https://tile.jawg.io/jawg-light/{z}/{x}/{y}{r}.png?access-token=Uwyu7QJsTA36DvM2Lz5edFbHQ7z7eyPPV2JWfaaUFi3Gr9Rj4DtgJ8xLtCKUpNDi', {});
+jawgtile.addTo(map);
+
+var archeia = L.circle([37.908, 22.883], {
+    color: '#82b9b4',
+    radius: 600
+});
+archeia.bindTooltip("B", {permanent: true, direction: 'top'}).openTooltip();
+archeia.addTo(map);
+
+var gare = L.circle([37.921077, 22.931726], {
+    color: '#82b9b4',
+    radius: 200
+}).addTo(map);
+gare.bindTooltip("A: Gare", {permanent: true, direction: 'top'}).openTooltip();
+gare.addTo(map);
+
+var neia = L.circle([37.940, 22.929], {
+    color: '#82b9b4',
+    radius: 800
+}).addTo(map);
+neia.bindTooltip("C: Nouvelle Corinthe", {permanent: true, direction: 'top'}).openTooltip();
+neia.addTo(map);
+
+var canal = new L.marker([37.935, 22.965], { opacity: 0.01 }); //opacity may be set to zero
+canal.bindTooltip("Canal de Corinthe", {permanent: true, direction: 'center' });
+canal.addTo(map);
+
+</script>

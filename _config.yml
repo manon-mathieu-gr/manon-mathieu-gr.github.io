@@ -27,16 +27,15 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://manon-mathieu-gr.github.io # the base hostname & protocol for your site, e.g. http://example.com
 # Make _pages accessible
-collections:
-  pages:
-    output: true
-    permalink: /:path/
+include:
+  - _pages
 
-# header_pages:
-#   - index.md
-#   - about.md
-#   - visites/index.md
-#   - reservation.md
+# Choose pages in header + order
+header_pages:
+  - _pages/about.md
+  - _pages/visites/index.md
+  - _pages/culture.md
+  - _pages/reservation.md
 
 
 # Build settings
