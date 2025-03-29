@@ -52,7 +52,7 @@ de vous accueillir tous ensemble!
 *(PS: oui je sais la page remonte à chaque fois qu'on change de mois, j'essaie de trouver une solution 😅
 En attendant, je vous conseille de passer tous les mois d'un coup tant que vous êtes en haut.)*
 
-</div>x
+</div>
 
 <!-- <div class="section" markdown="1">
 ## Comment ?
