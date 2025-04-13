@@ -10,7 +10,7 @@ Nos visites vous ont terriblement donné envie ou nous vous manquons simplement 
 <div class="section" markdown="1">
 ## Où ?
 
-Nous vivons à [Nea Penteli](visites/attique/index.md#nea-penteli). 
+Nous vivons à [Nea Penteli](/visites/attique/index.html#nea-penteli). 
 Nous avons une chambre d'amis et un grand salon pour accueillir un matelas gonflable si besoin.
 
 

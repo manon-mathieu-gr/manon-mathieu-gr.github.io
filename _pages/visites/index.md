@@ -16,12 +16,15 @@ map: true
 ## Par régions
 
   <a class="visit-page-link" href="attique/index.html">
-    <img src="/assets/images/athenes.jpeg" alt="Athènes" />
+    <!-- <img src="/assets/images/athenes.jpeg" alt="Athènes" /> -->
     <span>Athènes et sa région</span>
   </a>
 
+  <a class="visit-page-link" href="centrale/index.html">
+    <span>La Grèce centrale</span>
+  </a>
+
   <a class="visit-page-link" href="peloponnese/index.html">
-    <img src="/assets/images/nauplie.jpeg" alt="Nauplie" />
     <span>Le Péloponnèse</span>
   </a>
 
@@ -29,9 +32,8 @@ map: true
     <span>Les îles saroniques</span>
   </a>
 
-  <a class="visit-page-link" href="centrale/index.html">
-    <img src="/assets/images/delphes.jpeg" alt="Delphes" />
-    <span>La Grèce centrale</span>
+  <a class="visit-page-link" href="ioniennes/index.html">
+    <span>Les îles ioniennes</span>
   </a>
 
   <a class="visit-page-link" href="cyclades/index.html">
