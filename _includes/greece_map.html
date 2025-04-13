@@ -5,9 +5,11 @@ crossorigin=""></script>
 <div id="map" style="border-radius: 20px;"></div>
 <script>
 var map = L.map('map', {  
-    center: [38.0, 23.73], // Center
+    // center: [38.0, 23.73], // Center with Crete
+    center: [38.5, 23.0], // Center w/o Crete
     zoomSnap: 0.1, // Use non-integer zoom level
-    zoom: 6.7, // Zoom level
+    // zoom: 6.7, // Zoom level with Crete
+    zoom: 6.8, // Zoom level w/o Crete
     zoomControl: false, // Hide zoom controls
     scrollWheelZoom: false, // Disable zoom with scroll
     doubleClickZoom: false, // Disable zoom with double-click

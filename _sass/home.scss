@@ -19,7 +19,7 @@
 
 /* Définition du délai pour chaque image */
 $delay-interval: 5s;
-$total-images: 3; /* Attention ! Dois correspondre au nombre d'images dans le diaporama. */
+$total-images: 6; /* Attention ! Dois correspondre au nombre d'images dans le diaporama. */
 $animation-duration: $delay-interval * $total-images;
 
 .slideshow-images img {

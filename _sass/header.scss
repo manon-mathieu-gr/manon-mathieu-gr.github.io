@@ -16,6 +16,13 @@ body {
     padding-top: 80px; /* Adjust based on header height */
 }
 
+/* Apply to all section headings or elements with IDs */
+/* Avoid sections/pages' top being hidden behind the header when following links */
+:target {
+    scroll-margin-top: 80px; /* Adjust based on header height */
+  }
+  
+
 // Center the menu icon
 .site-nav {
     @include media-query($on-palm) {
@@ -28,6 +35,10 @@ body {
     align-items: center;
     justify-content: center;
     padding-top: 0px;
+
+    @include media-query($on-palm) {
+        flex-wrap: wrap; /* Allow the logo and title to wrap */
+    }
 }
 
 .nav-logo {
@@ -36,3 +47,28 @@ body {
     margin-right: 10px;
     padding-top: 7px;
 }
+
+.site-title{
+    @include media-query($on-palm) {
+        font-size: 1.3rem; /* Reduce font size for smaller screens */
+    }
+}
+
+
+/* For smaller screens where the navigation and logo get too close */
+@media (max-width: 1024px) {
+  
+    /* Make the navigation links stack vertically in the dropdown */
+    .trigger {
+      display: none; /* Hide the menu by default */
+    }
+  
+    .nav-trigger:checked + label + .trigger {
+      display: block; /* Show the dropdown when the checkbox is checked */
+    }
+  
+    .nav-trigger {
+      display: none; /* Hide the checkbox */
+    }
+  
+  }
