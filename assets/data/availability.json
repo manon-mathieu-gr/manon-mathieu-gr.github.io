@@ -36,9 +36,21 @@
         "event": "Famille Manon"
     },
     {
-        "start": "2025-07-15",
+        "start": "2025-07-05",
         "end": "2025-08-15",
         "status": "away",
         "event": "Nous ne serons très probablement pas là 🚫 (De toute façon il fait trop chaud 🥵)"
+    },
+    {
+        "start": "2025-10-05",
+        "end": "2025-10-08",
+        "status": "unavailable",
+        "event": "Copaings montpelliérains (Gomar et son kiné)"
+    },
+    {
+        "start": "2026-04-10",
+        "end": "2026-04-20",
+        "status": "unavailable",
+        "event": "Famille Mathieu"
     }
 ]

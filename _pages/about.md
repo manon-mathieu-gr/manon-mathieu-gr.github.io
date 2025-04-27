@@ -32,6 +32,7 @@ vous pouvez vous "abonner" à la newsletter en nous envoyant un petit message ou
 
 ### Les derniers posts
 
+- [Corfou *(Kerkyra)*](/visites/ioniennes#corfou-kerkyra)
 - [Corinthe](/visites/peloponnese#corinthe)
 - [Les romans de Victoria Hislop](/culture#les-romans-de-victoria-hislop)
 

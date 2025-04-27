@@ -49,9 +49,6 @@ Nous laissons volontairement des indices sur les personnes présentes.
 S'il y a déjà des visiteurs mais que vous les connaissez bien, on trouvera sûrement un moyen 
 de vous accueillir tous ensemble!
 
-*(PS: oui je sais la page remonte à chaque fois qu'on change de mois, j'essaie de trouver une solution 😅
-En attendant, je vous conseille de passer tous les mois d'un coup tant que vous êtes en haut.)*
-
 </div>
 
 <!-- <div class="section" markdown="1">
