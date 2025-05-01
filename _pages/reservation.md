@@ -36,13 +36,15 @@ les autres régions aussi
   <div id="calendar"></div>
 </div>
 
+<div id="calendar-tooltip" class="hidden"></div>
+
 <script src="/assets/js/calendar.js"></script>
 
 <ul class="legend">
-  <li><span class="color-box" style="background-color: #dfffdc;"></span> Nous sommes disponibles</li>
+  <li><span class="color-box" style="background-color: #dfffdc;"></span> Nous sommes (probablement) disponibles</li>
   <li><span class="color-box" style="background-color: #fff8c2;"></span> Nous avons des visiteurs qui n'occupent pas la chambre d'amis</li>
   <li><span class="color-box" style="background-color: #ffcccc;"></span> Nous avons des visiteurs qui occupent la chambre d'amis</li>
-  <li><span class="color-box" style="background-color: #e0e0e0;"></span> Nous ne sommes pas disponibles 🚫</li>
+  <li><span class="color-box" style="background-color: #e0e0e0;"></span> Nous ne sommes (probablement) pas disponibles 🚫</li>
 </ul>
 
 Nous laissons volontairement des indices sur les personnes présentes.
@@ -50,33 +52,3 @@ S'il y a déjà des visiteurs mais que vous les connaissez bien, on trouvera sû
 de vous accueillir tous ensemble!
 
 </div>
-
-<!-- <div class="section" markdown="1">
-## Comment ?
-
-### Pour les plus motivés
-
-La voiture
-
-### Pour les plus écolos
-
-Train + ferry
-
-### Pour ceux qui n'ont pas 30 jours de congés
-
-L'avion
-
-Pour profiter un minimum des beautés de la Grèce, 
-nous vous conseillons tout de même de prévoir au moins 9 jours de vacances 😉
-</div> -->
-
-<!-- <div class="section" markdown="1">
-## Nous contacter
-
-Vous pouvez nous envoyer un mail à [{{ site.email | escape }}](mailto:{{ site.email | escape }}) en précisant:
-  - les dates de visites
-  - les nuits que vous souhaitez passer chez nous
-
-Bien sûr vous pouvez aussi nous envoyer ces infos par message perso 😂
-Si vous avez des questions, n'hésitez pas!
-</div> -->

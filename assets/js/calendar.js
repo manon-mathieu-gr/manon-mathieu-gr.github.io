@@ -5,8 +5,13 @@ document.addEventListener("DOMContentLoaded", function () {
     const nextMonthBtn = document.getElementById("nextMonth");
 
     let currentDate = new Date();
-    const minDate = new Date(2025, 3); // March 2025
-    const maxDate = new Date(2027, 0); // February 2027
+    // Calendar boundaries set as [minDate, maxDate[
+    const minDate = new Date(2025, 2); // March 2025
+    const maxDate = new Date(2027, 2); // March 2027
+
+    // Touchscreen or laptop to use click or hovering effects
+    const tooltip = document.getElementById("calendar-tooltip");
+    const isFinePointer = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
 
     function loadCalendar() {
 
@@ -64,32 +69,43 @@ document.addEventListener("DOMContentLoaded", function () {
                     dayElement.dataset.eventId = eventData.eventId;
 
                     if (eventData.event) {
-                        dayElement.title = eventData.event; // Show event text on hover
-                        
-                        // Hover effect only for events in JSON
-                        dayElement.addEventListener("mouseenter", function () {
-                            document.querySelectorAll(`[data-event-id="${eventData.eventId}"]`).forEach(el => {
-                                el.classList.add("hovered");
-                            });
-                        });
-
-                        dayElement.addEventListener("mouseleave", function () {
-                            document.querySelectorAll(`[data-event-id="${eventData.eventId}"]`).forEach(el => {
-                                el.classList.remove("hovered");
-                            });
-                        });
-                    } else {
+                        dayElement.title = eventData.event; // Show event text
+                      
+                        const toggleHoverClass = (add) => {
+                          document.querySelectorAll(`[data-event-id="${eventData.eventId}"]`).forEach(el => {
+                            el.classList.toggle("event-hovered", add);
+                          });
+                        };
+                      
+                        if (isFinePointer) {
+                            dayElement.addEventListener("mouseenter", () => toggleHoverClass(true));
+                            dayElement.addEventListener("mouseleave", () => toggleHoverClass(false));
+                        } else {
+                            dayElement.addEventListener("click", (e) => {
+                                // Hide any active tooltips
+                                document.querySelectorAll(".event-active").forEach(el => el.classList.remove("event-active"));
+                                tooltip.classList.remove("show");
+                          
+                                // Mark this element as active
+                                document.querySelectorAll(`[data-event-id="${eventData.eventId}"]`).forEach(el => {
+                                    el.classList.toggle("event-active", true);
+                                  });
+                          
+                                // Show tooltip
+                                tooltip.textContent = dayElement.title;
+                                tooltip.style.left = `${e.touches[0].pageX + 10}px`;
+                                tooltip.style.top = `${e.touches[0].pageX + 10}px`;
+                                tooltip.classList.add("show");
+                              }
+                            );
+                        }
+                      } else {
                         dayElement.title = getStatusText(eventData.status);
-                    }
-
+                      }
                     calendar.appendChild(dayElement);
                 }
             })
             .catch(error => console.error("Erreur de chargement des disponibilités", error));
-
-        // // Hide navigation buttons at limits
-        // prevMonthBtn.style.display = currentDate <= minDate ? "none" : "inline-block";
-        // nextMonthBtn.style.display = currentDate >= maxDate ? "none" : "inline-block";
         
         // Restore the scroll position after the calendar update
         window.scrollTo(0, currentScrollPosition);
@@ -97,18 +113,32 @@ document.addEventListener("DOMContentLoaded", function () {
 
     prevMonthBtn.addEventListener("click", function (event) {
         event.preventDefault();  // Prevent default button action (scrolling)
-        if (currentDate > minDate) {
-            currentDate.setMonth(currentDate.getMonth() - 1);
+        const newDate = new Date(currentDate);
+        newDate.setMonth(currentDate.getMonth() - 1);
+        if (newDate >= minDate) {
+            currentDate = newDate;
             loadCalendar();
         }
     });
 
     nextMonthBtn.addEventListener("click", function (event) {
         event.preventDefault();  // Prevent default button action (scrolling)
-        if (currentDate < maxDate) {
-            currentDate.setMonth(currentDate.getMonth() + 1);
+        const newDate = new Date(currentDate);
+        newDate.setMonth(currentDate.getMonth() + 1);
+        if (newDate <= maxDate) {
+            currentDate = newDate;
             loadCalendar();
         }
+    });
+
+    document.addEventListener("click", (e) => {      
+        // If the click was not on a calendar day or the tooltip, close everything
+        // if (!e.target.closest(".day") && !tooltip.contains(e.target)) {
+        //   document.querySelectorAll(".event-active").forEach(el => {
+        //     el.classList.remove("event-active");
+        //   });
+        //   tooltip.classList.remove("show");
+        // }
     });
 
     function getStatusText(status) {

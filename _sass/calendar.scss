@@ -2,7 +2,14 @@
     display: center;
     text-align: center;
     max-width: 400px;
+    aspect-ratio: 1 / 1;
     margin: auto;
+}
+
+@media (max-width: $on-palm) {
+    .calendar-container {
+        max-width: 100%;
+    }
 }
 
 .calendar-header {
@@ -27,8 +34,8 @@
 }
 
 .day {
-    width: 50px;
-    height: 50px;
+    aspect-ratio: 1 / 1;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,13 +52,10 @@
 .away { background-color: #e0e0e0; }
 
 /* Hover effect for all event days */
-.hovered {
+.event-hovered,
+.event-active {
     filter: brightness(85%);
     transition: 0.1s;
-}
-
-.day:hover {
-    opacity: 0.8;
 }
 
 button {
@@ -64,27 +68,70 @@ button {
     font-size: 16px;
 }
 
-button:hover {
-    background-color: $light-turquoise;
+@media (hover: hover) and (pointer: fine) {
+    .day:hover {
+        opacity: 0.8;
+    }
+
+    button:hover {
+        background-color: $light-turquoise;
+    }
 }
+
+#calendar-tooltip {
+    position: absolute;
+    background: #333;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    white-space: nowrap;
+    pointer-events: auto;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+
+  #calendar-tooltip.show {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
 
 
 /* Style for the color boxes in the legend */
 ul.legend {
     list-style-type: none;
     padding: 0;
-  }
+}
   
-  ul.legend li {
+ul.legend li {
     display: flex;
     align-items: center;
     margin: 5px 0;
-  }
-  
-  ul.legend .color-box {
+}
+
+ul.legend .color-box {
     width: 20px; /* Size of the color box */
     height: 20px; /* Size of the color box */
+    flex-shrink: 0;
     border-radius: 5px; /* Rounded corners */
     margin-right: 10px;
     filter: saturate(400%);
-  }
+}
+
+@media (max-width: $on-palm) {
+    ul.legend {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    ul.legend li {
+        padding-left: 0;
+        margin-left: 0;
+    }
+}
