@@ -40,6 +40,26 @@ Dimitri et Katerina l’ont vécu de l’intérieur, et je me suis beaucoup atta
 C’est pourtant bien une fiction, mais comme c’est le cas pour tous les romans de Victoria Hislop, cette fiction est insérée dans l’Histoire.
 On apprend tout en lisant et en passant un bon moment, et c’est ce que j’aime, d’autant plus comme ici, quand l’Histoire en question est celle de la Grèce.
 
+<div class="photo-grid">
+  <div><img style="object-fit: contain" src="/assets/images/culture/hislop/oublies.jpg"></div>
+  <div><img style="object-fit: contain" src="/assets/images/culture/hislop/danse.jpg"></div>
+  <div><img style="object-fit: contain" src="/assets/images/culture/hislop/souvenirs.jpg"></div>
+</div>
 
+
+</div>
+
+<div class="section" markdown="1">
+## Je t'oublierai tous les jours - Vassilis Alexakis
+
+<div class="date-modification"> 15/06/2025 </div>
+
+Cet écrivain grec (1943-2021) a fait ses études en France et a écrit de nombreux livres en français et en grec. Celui-ci est autobiographique, à travers la mise en scène d’une discussion avec le fantôme de sa mère. Il replonge dans ses souvenirs en lui parlant, raconte son enfance et son adolescence, sa double-culture, et détaille sa vie entre trois lieux de grande importance pour lui : Athènes, Paris et Santorin, dont il va suivre l’évolution et les changements. C’est un joli portrait de la Grèce, poétique et honnête, qui résonne avec nos visites et ce qu’on en a vu.
+
+<div class="photo-single">
+  <img style="max-width: 200px" src="/assets/images/culture/alexakis_oublierai.jpg">
+</div>
+
+« *Je découvrais que les mots avaient la propriété d’effacer les histoires qu’ils racontent.* »
 
 </div>

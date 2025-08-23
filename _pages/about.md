@@ -32,6 +32,11 @@ vous pouvez vous "abonner" à la newsletter en nous envoyant un petit message ou
 
 ### Les derniers posts
 
+- [Le Pélion](/visites/centrale#le-plion)
+- [Je t’oublierai tous les jours - Vassilis Alexakis](/culture#je-toublierai-tous-les-jours---vassilis-alexakis)
+
+### Les plus anciens
+
 - [Corfou *(Kerkyra)*](/visites/ioniennes#corfou-kerkyra)
 - [Corinthe](/visites/peloponnese#corinthe)
 - [Les romans de Victoria Hislop](/culture#les-romans-de-victoria-hislop)

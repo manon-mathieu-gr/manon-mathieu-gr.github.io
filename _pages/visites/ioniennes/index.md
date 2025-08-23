@@ -8,9 +8,9 @@ gallery: true
 <div class="section" markdown="1">
 ## Nos visites sur les îles ioniennes
 
-- [Corfou *(Kerkyra)*](/visites/ioniennes#corfou-kerkyra)
-- [Céphalonie *(Kefalonia)*](/visites/ioniennes#cphalonie-kefalonia)
-- [Ithaque *(Ithaki)*](/visites/ioniennes#ithaque-ithaki)
+- [Corfou *(Kerkyra)*](#corfou-kerkyra)
+- [Céphalonie *(Kefalonia)*](#cphalonie-kefalonia)
+- [Ithaque *(Ithaki)*](#ithaque-ithaki)
 
 </div>
 
@@ -278,6 +278,8 @@ Week-end magnifique et plein de surprises, on ne s'attendait pas à tout ça !
 
 ## Céphalonie *(Kefalonia)*
 
+<div class="date-modification"> Dernière modification : 15/06/2025 </div>
+
 <div class="date-visite"> Dates de visite : Mars 2025 </div>
 
 A venir...
@@ -287,6 +289,8 @@ A venir...
 <div class="section" markdown="1">
 
 ## Ithaque *(Ithaki)*
+
+<div class="date-modification"> Dernière modification : 15/06/2025 </div>
 
 <div class="date-visite"> Dates de visite : Mars 2025 </div>
 

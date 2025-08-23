@@ -3,6 +3,7 @@ layout: page
 title: Péloponnèse
 permalink: /visites/peloponnese/
 map: true
+gallery: true
 ---
 
 <div class="section" markdown="1">
@@ -13,6 +14,9 @@ map: true
 - [Epidaure](/visites/peloponnese#epidaure)
 
 </div>
+
+<!-- Add necessary scripts for image gallery -->
+{% include gallery.html %}
 
 <div class="section" markdown="1">
 ## Corinthe
@@ -63,19 +67,29 @@ Notre hôtel était très mignon (Pegasus Rooms) et nous avons mangé dans une t
 Le lendemain matin, nous avons sûrement mangé notre petit déjeuner le plus copieux de l’année ! Sur le toit de l’hôtel, avec vue presque à 360° sur la vieille ville et les montagnes, au chaud, nous avons dégusté un brunch digne d’un hôtel 4 étoiles. Nous nous souviendrons particulièrement du jus d’orange, très doux et sans acidité, caractéristique des oranges de Corinthe. Nous connaissions déjà les raisins sans pépins, décidément la région fait vendre ses fruits !
 Le plan de la journée était de visiter l’Acro-Corinthe puis le temple d'Apollon. L’Acro-Corinthe est le point culminant de la vieille ville, tout en haut de la colline surplombant la ville. Cela nous paraissait loin alors nous avons demandé à un taxi de nous y emmener pour gagner du temps et garder de l’énergie. Nous avons bien fait, sur place beaucoup de marche nous attendait ! Après avoir franchi les trois murailles de défense, le site nous offre une superbe vue, et sa grandeur est impressionnante.
 
-<div class="photo-grid">
-    <div><img src="/assets/images/visites/peloponnese/corinthe_ancienne_4.jpg"></div>
-    <div><img src="/assets/images/visites/peloponnese/corinthe_oranges.jpg"></div>
+
+<div id="corinthe" class="gallery">
+  <a href="/assets/images/visites/peloponnese/corinthe_ancienne_4.jpg">
+      <img src="/assets/images/visites/peloponnese/corinthe_ancienne_4.jpg" alt="Petit-dejeuner" />
+  </a>
+  <a href="/assets/images/visites/peloponnese/corinthe_oranges.jpg">
+      <img src="/assets/images/visites/peloponnese/corinthe_oranges.jpg" alt="Les fameuses oranges de Corinthe" />
+  </a>
+  <a href="/assets/images/visites/peloponnese/corinthe_acro_1.jpg">
+      <img src="/assets/images/visites/peloponnese/corinthe_acro_1.jpg" alt="Vue sur le Péloponnèse depuis l'Acro-Corinthe" />
+  </a>
+  <a href="/assets/images/visites/peloponnese/corinthe_acro_2.jpg">
+    <img src="/assets/images/visites/peloponnese/corinthe_acro_2.jpg" alt="En plus grand angle" />
+  </a>
+  <a href="/assets/images/visites/peloponnese/corinthe_acro_3.jpg">
+    <img src="/assets/images/visites/peloponnese/corinthe_acro_3.jpg" alt="L'Acro-Corinthe" />
+  </a>
+  <a href="/assets/images/visites/peloponnese/corinthe_acro_4.jpg">
+    <img src="/assets/images/visites/peloponnese/corinthe_acro_4.jpg" alt="Et sa réserve d'eau" />
+  </a>
 </div>
 
 Nous avons passé quelques heures à déambuler sur les chemins du site archéologique. A noter que son accès était complétement gratuit, et bien documenté (les fameux panneaux descriptifs qui sont souvent un peu trop longs à lire). A l'intérieur des remparts qui s’étirent sur tout le plateau, il y avait des vestiges de maisons, chapelles et baraquements datant d’époques différentes (romains, byzantins, francs). Notre petit préféré : une surprenante réserve d’eau souterraine à laquelle nous avons eu accès par un petit escalier. La vue était évidemment magnifique, dégagée jusqu’à la mer des deux côtés du passage du Péloponnèse.
-
-<div class="photo-grid">
-    <div class="vertical"><img src="/assets/images/visites/peloponnese/corinthe_acro_1.jpg"></div>
-    <div class="vertical"><img src="/assets/images/visites/peloponnese/corinthe_acro_4.jpg"></div>
-    <div class="horizontal"><img src="/assets/images/visites/peloponnese/corinthe_acro_2.jpg"></div>
-    <div class="horizontal"><img src="/assets/images/visites/peloponnese/corinthe_acro_3.jpg"></div>
-</div>
 
 Motivés, nous avons commencé la re-descente à pied avant d’être pris en stop par un photographe italien. Arrivés au village, petit passage chez Sweet Cookies Cafe, où nous avons mangé des petites douceurs avec un autre jus d’orange (on ne s’en passe plus), accompagné pour Manon d’une portokalopita (gâteau à l’orange, sisi c’est incroyable !). Avec ce bon goûter dans le ventre, nous avons visité le temple d'Apollon, les ruines qui l’entourent et le musée attenant. Il était temps que la journée se termine car nous avions mal aux pattes !
 
@@ -98,13 +112,27 @@ Au coucher du Soleil, il était l’heure de rentrer. C’est avec émotion que 
 <div class="section" markdown="1">
 ## Nauplie
 
-<div class="date-visite"> Dates de visite : Janvier 2025 </div>
+<div class="date-modification"> Dernière modification : 15/06/2025 </div>
+
+<div class="date-visite"> Dates de visite : Janvier & Avril 2025 </div>
+
+A venir...
+</div>
+
+<div class="section" markdown="1">
+## Mycenes
+
+<div class="date-modification"> Dernière modification : 15/06/2025 </div>
+
+<div class="date-visite"> Dates de visite : Avril 2025 </div>
 
 A venir...
 </div>
 
 <div class="section" markdown="1">
 ## Epidaure
+
+<div class="date-modification"> Dernière modification : 15/06/2025 </div>
 
 <div class="date-visite"> Dates de visite : Janvier 2025 </div>
 
