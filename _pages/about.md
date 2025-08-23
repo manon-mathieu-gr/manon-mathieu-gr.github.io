@@ -11,11 +11,11 @@ Comme vous le savez, nous nous sommes installés dans ce magnifique pays fin 202
 
 C’est le but de ce site : vous faire découvrir la Grèce à travers nos yeux d'expatriés, et qui sait, peut-être vous donner envie de la visiter à votre tour ? Ou au moins vous faire voyager par procuration 😉
 
-Pour commencer à explorer, ou suivre nos aventures, c’est par là → [Nos visites](visites/index.md)
+Pour commencer à explorer, ou suivre nos aventures, c’est par là → [Nos visites](/visites)
 
-Si vous vous êtes décidés à nous rendre visite, ça se passe ici → [Nous rejoindre](./reservations.md)
+Si vous vous êtes décidés à nous rendre visite, ça se passe ici → [Nous rejoindre](/reservation)
 
-Et pour s’immerger encore plus, on vous propose des petits shots de culture grecque juste là → [Culture grecque](./culture.md)
+Et pour s’immerger encore plus, on vous propose des petits shots de culture grecque juste là → [Culture grecque](/culture)
 
 Une fois que vous aurez fait le tour, n’hésitez pas à nous laissez un petit mot sur notre boite mail, avec vos remarques, suggestions ou mots d’amour → [{{ site.email | escape }}](mailto:{{ site.email | escape }})
 </div>
