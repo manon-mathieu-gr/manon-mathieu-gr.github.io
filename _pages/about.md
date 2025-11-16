@@ -32,11 +32,13 @@ vous pouvez vous "abonner" à la newsletter en nous envoyant un petit message ou
 
 ### Les derniers posts
 
-- [Le Pélion](/visites/centrale#le-plion)
-- [Je t’oublierai tous les jours - Vassilis Alexakis](/culture#je-toublierai-tous-les-jours---vassilis-alexakis)
+- [Hydra](/visites/saroniques#hydra)
+- [La cuisine grecque (version végan)](/culture#la-cuisine-grecque-version-vgan)
 
 ### Les plus anciens
 
+- [Le Pélion](/visites/centrale#le-plion)
+- [Je t’oublierai tous les jours - Vassilis Alexakis](/culture#je-toublierai-tous-les-jours---vassilis-alexakis)
 - [Corfou *(Kerkyra)*](/visites/ioniennes#corfou-kerkyra)
 - [Corinthe](/visites/peloponnese#corinthe)
 - [Les romans de Victoria Hislop](/culture#les-romans-de-victoria-hislop)

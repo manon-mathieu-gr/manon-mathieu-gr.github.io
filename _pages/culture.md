@@ -2,7 +2,11 @@
 layout: page
 title: Culture grecque
 permalink: /culture/
+gallery: true
 ---
+
+<!-- Add necessary scripts for image gallery -->
+{% include gallery.html %}
 
 La Grèce, ce n’est pas seulement de beaux paysages et des sites historiques, c’est aussi des traditions, de la bonne nourriture, un savoir vivre différent. Ici nous allons vous partager nos recommandations (testées et approuvées) pour s’immerger dans cette culture, coincée entre l’orient et l’occident, que nous trouvons très intéressante !
 
@@ -61,5 +65,45 @@ Cet écrivain grec (1943-2021) a fait ses études en France et a écrit de nombr
 </div>
 
 « *Je découvrais que les mots avaient la propriété d’effacer les histoires qu’ils racontent.* »
+
+</div>
+
+
+<div class="section" markdown="1">
+## La cuisine grecque (version végan)
+
+<div class="date-modification"> 31/08/2025 </div>
+
+Pour nos premiers anniversaires d'expatriés, les parents de Mathieu nous ont plongé dans la culture culinaire grecque (revisitée pour les végans) en nous offrant un super cours de cuisine dans le centre d'Athènes.
+
+Au menu:
+- un Dakos, salade crétoise avec du pain dur, des tomates, de la fêta, des olives... (bref, de la Grèce en salade)
+- l'incontournable tzatziki
+- les favas, notre "tartinade" favorite dans les tavernes grecques
+- la spanakopita, tarte/tourte aux épinards que Manon maîtrise à merveille 😉
+- la moussaka (aux lentilles)
+- le ekmek, dessert d'origine turque, que l'on préfère vraiment en version végan (un peu plus léger)
+
+
+<div id="cuisine-grecque" class="gallery">
+  <a href="/assets/images/culture/cuisine/dakos.jpg">
+    <img src="/assets/images/culture/cuisine/dakos.jpg" alt="Le Dakos crétois (LA salade idéale pour l'été)" />
+  </a>
+  <a href="/assets/images/culture/cuisine/tzatziki.jpg">
+    <img src="/assets/images/culture/cuisine/tzatziki.jpg" alt="Le fameux tzatziki (la valeur sûre)" />
+  </a>
+  <a href="/assets/images/culture/cuisine/fava.jpg">
+    <img src="/assets/images/culture/cuisine/fava.jpg" alt="Les favas (a.k.a., the best dips)" />
+  </a>
+  <a href="/assets/images/culture/cuisine/spanakopita.jpg">
+    <img src="/assets/images/culture/cuisine/spanakopita.jpg" alt="La spanakopita (la spécialité de Manon)" />
+  </a>
+  <a href="/assets/images/culture/cuisine/moussaka.jpg">
+    <img src="/assets/images/culture/cuisine/moussaka.jpg" alt="La (presque) traditionnelle moussaka" />
+  </a>
+  <a href="/assets/images/culture/cuisine/ekmek.jpg">
+    <img src="/assets/images/culture/cuisine/ekmek.jpg" alt="Le ekmek (dessert d'origine turque)" />
+  </a>
+</div>
 
 </div>

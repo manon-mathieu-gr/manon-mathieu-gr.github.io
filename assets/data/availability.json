@@ -42,6 +42,12 @@
         "event": "Nous ne serons très probablement pas là 🚫 (De toute façon il fait trop chaud 🥵)"
     },
     {
+        "start": "2025-09-13",
+        "end": "2025-09-14",
+        "status": "away",
+        "event": "En vadrouille"
+    },
+    {
         "start": "2025-09-20",
         "end": "2025-10-04",
         "status": "unavailable",
@@ -52,6 +58,18 @@
         "end": "2025-10-08",
         "status": "unavailable",
         "event": "Copaings montpelliérains (Gomar et son kiné)"
+    },
+    {
+        "start": "2025-10-25",
+        "end": "2025-10-28",
+        "status": "away",
+        "event": "En vadrouille"
+    },
+    {
+        "start": "2025-12-20",
+        "end": "2026-01-04",
+        "status": "unavailable",
+        "event": "Noël en France"
     },
     {
         "start": "2026-04-10",

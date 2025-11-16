@@ -38,9 +38,9 @@ Parce que, élément important : il y a deux Corinthe. L’ancienne (Ancient Kor
 On ne va pas s’étendre sur la ville en elle-même, nous avons quand même mangé un bon brunch à “The Brew Mates”, mais nous sommes rapidement partis marcher le long de la jetée, en direction du canal. Il y avait du vent, les vagues étaient impressionnantes et inondaient le chemin !
 
 <div class="photo-grid">
-    <div><img src="/assets/images/visites/peloponnese/corinthe_brunch_1.jpg"></div>
-    <div class="horizontal"><img src="/assets/images/visites/peloponnese/corinthe_vagues.jpg"></div>
-    <div><img src="/assets/images/visites/peloponnese/corinthe_brunch_2.jpg"></div>
+    <div><img src="/assets/images/visites/peloponnese/corinthe/brunch_1.jpg"></div>
+    <div class="horizontal"><img src="/assets/images/visites/peloponnese/corinthe/vagues.jpg"></div>
+    <div><img src="/assets/images/visites/peloponnese/corinthe/brunch_2.jpg"></div>
 </div>
 
 
@@ -48,7 +48,7 @@ Arrivés au canal, nous avons commis la deuxième erreur de notre week-end. Nous
 
 
 <div class="photo-single">
-    <div><img src="/assets/images/visites/peloponnese/corinthe_canal.jpg"></div>
+    <div><img src="/assets/images/visites/peloponnese/corinthe/canal.jpg"></div>
 </div>
 
 Nous avons finalement quitté le chemin au bout d’une heure de marche, et heureusement trouvé rapidement un gentil grec qui nous a pris en covoiturage pour nous ramener à la nouvelle Corinthe. Il ne parlait pas anglais, et nous n’avions que quelques mots de grecs dans notre vocabulaire à ce moment-là. C’était difficile de se comprendre, mais il nous a quand même offert des bananes avant que l’on se quitte !
@@ -58,8 +58,8 @@ Forts de cette expérience, nous avons décidé d’aller ensuite à l’ancienn
 Heureusement, l'ancienne Corinthe nous a redonné du baume au cœur ! Nous nous sommes baladés et le charme de la vieille ville nous a conquis. Après 15h les sites antiques étaient tous fermés sauf le théâtre antique, c’est donc là que nous nous sommes dirigés. Nous étions seuls dans les ruines et nous nous sommes sentis envahis par ces siècles d'histoire. C’est étrange de pouvoir marcher sur des pierres et toucher des colonnes qui ont été sculptées deux millénaires plus tôt.
 
 <div class="photo-grid">
-    <div><img src="/assets/images/visites/peloponnese/corinthe_theatre.jpg"></div>
-    <div><img src="/assets/images/visites/peloponnese/corinthe_colonne.jpg"></div>
+    <div><img src="/assets/images/visites/peloponnese/corinthe/theatre.jpg"></div>
+    <div><img src="/assets/images/visites/peloponnese/corinthe/colonne.jpg"></div>
 </div>
 
 Notre hôtel était très mignon (Pegasus Rooms) et nous avons mangé dans une taverne traditionnelle. Les plats étaient moyens, et on était presque seuls dans le restaurant. Pas de quoi nous rassurer.. La feta panée avait même un goût bizarre, alors on l’a mise de côté pour la donner à un chien errant que l'on avait repéré dans l’après-midi ! Ce repas et l’orage qui arrivait ne nous ont pas empêché de passer une super nuit dans notre hôtel.
@@ -69,23 +69,23 @@ Le plan de la journée était de visiter l’Acro-Corinthe puis le temple d'Apol
 
 
 <div id="corinthe" class="gallery">
-  <a href="/assets/images/visites/peloponnese/corinthe_ancienne_4.jpg">
-      <img src="/assets/images/visites/peloponnese/corinthe_ancienne_4.jpg" alt="Petit-dejeuner" />
+  <a href="/assets/images/visites/peloponnese/corinthe/ancienne_4.jpg">
+      <img src="/assets/images/visites/peloponnese/corinthe/ancienne_4.jpg" alt="Petit-dejeuner" />
   </a>
-  <a href="/assets/images/visites/peloponnese/corinthe_oranges.jpg">
-      <img src="/assets/images/visites/peloponnese/corinthe_oranges.jpg" alt="Les fameuses oranges de Corinthe" />
+  <a href="/assets/images/visites/peloponnese/corinthe/oranges.jpg">
+      <img src="/assets/images/visites/peloponnese/corinthe/oranges.jpg" alt="Les fameuses oranges de Corinthe" />
   </a>
-  <a href="/assets/images/visites/peloponnese/corinthe_acro_1.jpg">
-      <img src="/assets/images/visites/peloponnese/corinthe_acro_1.jpg" alt="Vue sur le Péloponnèse depuis l'Acro-Corinthe" />
+  <a href="/assets/images/visites/peloponnese/corinthe/acro_1.jpg">
+      <img src="/assets/images/visites/peloponnese/corinthe/acro_1.jpg" alt="Vue sur le Péloponnèse depuis l'Acro-Corinthe" />
   </a>
-  <a href="/assets/images/visites/peloponnese/corinthe_acro_2.jpg">
-    <img src="/assets/images/visites/peloponnese/corinthe_acro_2.jpg" alt="En plus grand angle" />
+  <a href="/assets/images/visites/peloponnese/corinthe/acro_2.jpg">
+    <img src="/assets/images/visites/peloponnese/corinthe/acro_2.jpg" alt="En plus grand angle" />
   </a>
-  <a href="/assets/images/visites/peloponnese/corinthe_acro_3.jpg">
-    <img src="/assets/images/visites/peloponnese/corinthe_acro_3.jpg" alt="L'Acro-Corinthe" />
+  <a href="/assets/images/visites/peloponnese/corinthe/acro_3.jpg">
+    <img src="/assets/images/visites/peloponnese/corinthe/acro_3.jpg" alt="L'Acro-Corinthe" />
   </a>
-  <a href="/assets/images/visites/peloponnese/corinthe_acro_4.jpg">
-    <img src="/assets/images/visites/peloponnese/corinthe_acro_4.jpg" alt="Et sa réserve d'eau" />
+  <a href="/assets/images/visites/peloponnese/corinthe/acro_4.jpg">
+    <img src="/assets/images/visites/peloponnese/corinthe/acro_4.jpg" alt="Et sa réserve d'eau" />
   </a>
 </div>
 
@@ -94,15 +94,15 @@ Nous avons passé quelques heures à déambuler sur les chemins du site archéol
 Motivés, nous avons commencé la re-descente à pied avant d’être pris en stop par un photographe italien. Arrivés au village, petit passage chez Sweet Cookies Cafe, où nous avons mangé des petites douceurs avec un autre jus d’orange (on ne s’en passe plus), accompagné pour Manon d’une portokalopita (gâteau à l’orange, sisi c’est incroyable !). Avec ce bon goûter dans le ventre, nous avons visité le temple d'Apollon, les ruines qui l’entourent et le musée attenant. Il était temps que la journée se termine car nous avions mal aux pattes !
 
 <div class="photo-grid">
-    <div class="horizontal"><img src="/assets/images/visites/peloponnese/corinthe_ancienne_1.jpg"></div>
-    <div class="horizontal"><img src="/assets/images/visites/peloponnese/corinthe_ancienne_3.jpg"></div>
-    <div class="horizontal-4"><img src="/assets/images/visites/peloponnese/corinthe_ancienne_2.jpg"></div>
+    <div class="horizontal"><img src="/assets/images/visites/peloponnese/corinthe/ancienne_1.jpg"></div>
+    <div class="horizontal"><img src="/assets/images/visites/peloponnese/corinthe/ancienne_3.jpg"></div>
+    <div class="horizontal-4"><img src="/assets/images/visites/peloponnese/corinthe/ancienne_2.jpg"></div>
 </div>
 
 Au coucher du Soleil, il était l’heure de rentrer. C’est avec émotion que nous avons dit au revoir à l’Ancienne Corinthe. L’avantage c’est que nous étions de retour chez nous pour le dîner, avec un petit souvenir dans la poche !
 
 <div class="photo-single">
-    <div style="width: 100%; height: 100%; max-width: 300px; max-height: 300px; object-fit: cover; border-radius: 20px; "><img src="/assets/images/visites/peloponnese/corinthe_souvenir.jpg"></div>
+    <div style="width: 100%; height: 100%; max-width: 300px; max-height: 300px; object-fit: cover; border-radius: 20px; "><img src="/assets/images/visites/peloponnese/corinthe/souvenir.jpg"></div>
 </div>
 
 
