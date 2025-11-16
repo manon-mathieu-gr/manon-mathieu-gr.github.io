@@ -28,7 +28,7 @@ Plus anciennes:
 <div class="section" markdown="1">
 ## Hydra
 
-<div class="date-modification"> Dernière modification : 31/08/2025 </div>
+<div class="date-modification"> Dernière modification : 16/11/2025 </div>
 
 <div class="date-visite"> Dates de visite : Juin 2025 </div>
 

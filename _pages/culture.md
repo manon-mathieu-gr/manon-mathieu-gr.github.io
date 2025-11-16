@@ -72,7 +72,7 @@ Cet écrivain grec (1943-2021) a fait ses études en France et a écrit de nombr
 <div class="section" markdown="1">
 ## La cuisine grecque (version végan)
 
-<div class="date-modification"> 31/08/2025 </div>
+<div class="date-modification"> 16/11/2025 </div>
 
 Pour nos premiers anniversaires d'expatriés, les parents de Mathieu nous ont plongé dans la culture culinaire grecque (revisitée pour les végans) en nous offrant un super cours de cuisine dans le centre d'Athènes.
 
